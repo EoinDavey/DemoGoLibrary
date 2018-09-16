@@ -1,0 +1,2 @@
+def testFunc(testparam):
+    pass
