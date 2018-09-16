@@ -8,19 +8,27 @@ type HttpClient struct {
 }
 
 func NewClient(address string) HttpClient {
+    return HttpClient{}
 }
 
-func OldClient(address string) HttpClient {
+func (h *HttpClient) RunDownload() {
 }
 
-func AmazingClient(address string) HttpClient {
+func (h *HttpClient) ChangeAddress(newAddr, oldAddr string) bool {
+    return true
 }
 
-func SpeactularClient(address string) HttpClient {
+type UploadClient struct {
+    Conn connection
+    Details struct{
+        Target string
+    }
 }
 
-func ElderlyClient(address string) HttpClient {
+func unexported() error {
+    return nil
 }
 
-func TcpClient(address string) HttpClient {
+func Upload(u *UploadClient) error {
+    return nil
 }

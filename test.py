@@ -6,11 +6,5 @@ def client(testparam):
 def oldclient(testparam):
     pass
 
-def foo(testparam):
-    pass
-def bar(testparam):
-    pass
-def verylongname(testparam):
-    pass
-def haha(testparam):
+def moreParams(p1, p2, p3):
     pass
