@@ -8,3 +8,7 @@ def oldclient(testparam):
 
 def moreParams(p1, p2, p3):
     pass
+
+class testClass:
+    def foo():
+        pass
